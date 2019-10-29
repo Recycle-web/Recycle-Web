@@ -4,8 +4,8 @@ import "./Login.css";
 
 class Login extends Component {
   state = {
-    email: "nada.ead@hotmail.com",
-    password: "123456"
+    email: "",
+    password: ""
   };
 
   change = e => {
